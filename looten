@@ -1,0 +1,2 @@
+script_key = getgenv().Looten.StartUP.Key;
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/dc609c53c42fd9abfd3dfb1a09976db3.lua"))()
