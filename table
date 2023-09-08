@@ -1,7 +1,7 @@
 getgenv().Looten = {
   ['StartUP'] = {
       Key = 'LuarmorKey', -- replace with luarmor key
-      UWP_Optimize = true,
+      UWP_Optimize = false,
       UnlockFPS = true,
   },
   ['Silent'] = {
@@ -11,8 +11,8 @@ getgenv().Looten = {
       },
       KeyBind = {
           Enabled = true,
-          KeyBind = 'T',
-          Notification = false,
+          KeyBind = 't',
+          Notification = true,
       },
       HitPart = {
           NearestPoint = true,
@@ -70,13 +70,13 @@ getgenv().Looten = {
       CamLock = {
           Show = true,
           Use_Radius = false,
-          Radius = 20,
+          Radius = 60,
           Model = 'Circle'
       },
       SilentAim = {
           Show = true,
           Use_Radius = true,
-          Radius = 20,
+          Radius = 35,
           Model = 'Circle'
       },
   },
@@ -89,6 +89,7 @@ getgenv().Looten = {
           Crew_Check = false,
           Knocked_Check = true,
           AntiCurve = true,
+          NoGroundShots = true,
       },
       ['Gun_Fov'] = {
           Enabled = false,
@@ -115,7 +116,7 @@ getgenv().Looten = {
           },
       },
       ['Memory'] = {
-          Enable = false,
+          Enable = true,
           Start = 971,
           End = 984,
           Speed = 1,
@@ -123,7 +124,7 @@ getgenv().Looten = {
       ['Animation'] = { -- keybind = use animation
           Lay = false,
           LayKey = Enum.KeyCode.T,
-          Greet = false,
+          Greet = true,
           GreetKey = Enum.KeyCode.G,
           Speed = false,
           SpeedKey = Enum.KeyCode.N,
@@ -133,7 +134,7 @@ getgenv().Looten = {
           GriddyKey = Enum.KeyCode.G,
       },
       ['Chat'] = {
-          Enabled = false, --  example !fov 120
+          Enabled = true, --  example !fov 120
           SilentAim_Fov_Size = '!fov',
           SilentAim_Prediction = '!Prediction',
           CamLock_fov_Size = '/fov',
