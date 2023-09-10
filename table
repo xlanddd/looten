@@ -13,7 +13,7 @@ getgenv().Looten = {
         KeyBind = {
             Enabled = true,
             KeyBind = 'P',
-            Notification = true,
+            Notification = false,
         },
         HitPart = {
             NearestPoint = true,
@@ -127,7 +127,7 @@ getgenv().Looten = {
             Delay = 0.1,
                 KeyBinds = {
                     Enabled = true,
-                    Notifications = true,
+                    Notifications = false,
                     KeyBind = 't',
             },
         },
