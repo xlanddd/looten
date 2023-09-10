@@ -1,13 +1,14 @@
 getgenv().Looten = {
   ['StartUP'] = {
-      Key = 'LuarmorKey', -- replace with luarmor key
+      Key = 'key here', -- replace with luarmor key
       UWP_Optimize = false,
       UnlockFPS = true,
+      Intro = true
   },
   ['Silent'] = {
       Normal = {
           Enabled = true,
-          HitChance = 100,
+          HitChance = 300,
       },
       KeyBind = {
           Enabled = true,
