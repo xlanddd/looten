@@ -13,7 +13,7 @@ getgenv().Looten = {
         KeyBind = {
             Enabled = true,
             KeyBind = 'P',
-            Notification = false,
+            Notification = true,
         },
         HitPart = {
             NearestPoint = true,
@@ -47,8 +47,8 @@ getgenv().Looten = {
         },
         Smoothness = {
             Enabled = true,
-            Smoothness = 0.013,
-            AirShot = 0.012,
+            Smoothness = 0.038,
+            AirShot = 0.037,
         },
         Shake = {
             Enabled = false,
@@ -119,7 +119,7 @@ getgenv().Looten = {
         },
         ['Auto360'] = {
             Enabled = false,
-            SpinKeybind = 'K',
+            SpinKeybind = 'C',
             SpinSpeed = 1,
         },
         ['TriggerBot'] = {
@@ -133,8 +133,8 @@ getgenv().Looten = {
         },
         ['Memory'] = {
             Enable = true,
-            Start = 1471,
-            End = 1984,
+            Start = 971,
+            End = 984,
             Speed = 1,
         },
         ['Animation'] = { -- keybind = use animation
