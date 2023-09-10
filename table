@@ -1,148 +1,163 @@
 getgenv().Looten = {
-  ['StartUP'] = {
-      Key = 'key here', -- replace with luarmor key
-      UWP_Optimize = false,
-      UnlockFPS = true,
-      Intro = true
-  },
-  ['Silent'] = {
-      Normal = {
-          Enabled = true,
-          HitChance = 300,
-      },
-      KeyBind = {
-          Enabled = true,
-          KeyBind = 't',
-          Notification = true,
-      },
-      HitPart = {
-          NearestPoint = true,
-          HitPart = 'HumanoidRootPart',
-      },
-      Prediction = {
-          Enabled = true,
-          AutoMated = false, -- auto prediction
-          Prediction = 0.12,
-      },
-  },
-  ['CamLock'] = {
-      Normal = {
-          Enabled = true,
-          ThirdPerson = true,
-          FirstPerson = true,
-      },
-      KeyBind = {
-          Hold = false,
-          Mode = 'KeyBind', -- or "Mouse"
-          KeyBind = 'q',
-          MouseBind = Enum.UserInputType.MouseButton2,
-      },
-      Prediction = {
-          Enabled = true,
-          Prediction = 0.12,
-      },
-      Style = {
-          First = 'Elastic',
-          Second = 'Sine'
-      },
-      Smoothness = {
-          Enabled = true,
-          Smoothness = 0.012,
-          AirShot = 0.012,
-      },
-      Shake = {
-          Enabled = true,
-          DirectionX = 8,
-          DirectionY = 6,
-          DirectionZ = 7,
-      },
-      HitPart = {
-          NearestPoint = true,
-          AirShot = true,
-          Part = 'HumanoidRootPart',
-          AirPart = 'HumanoidRootPart',
-      },
-      AutoUnLock = {
-          Reloading = true,
-          Typing = true,
-      },
-  },
-  ['Fov'] = {
-      CamLock = {
-          Show = true,
-          Use_Radius = false,
-          Radius = 60,
-          Model = 'Circle'
-      },
-      SilentAim = {
-          Show = true,
-          Use_Radius = true,
-          Radius = 35,
-          Model = 'Circle'
-      },
-  },
-  ['Adjustment'] = {
-    ['Checks'] = {
-          Resolver = true,
-          Anti_Aim_Viewer = true,
-          Wall_Check = true,
-          Disable_Ground_Shots = true,
-          Crew_Check = false,
-          Knocked_Check = true,
-          AntiCurve = true,
-          NoGroundShots = true,
-      },
-      ['Gun_Fov'] = {
-          Enabled = false,
-          DoubleBarrel = 22.5,
-          Revolver = 27.5,
-          Shotgun = 35,
-          TacticalShotgun = 35,
-          Smg = 25,
-          Silencer = 32.5
-      },
-      ['Macro'] = {
-          Enabled = true,
-          Hold_Key = false,
-          KeyBind = Enum.KeyCode.X,
-          Mode = '1' -- 1 = ioio 2 = scroll
-      },
-      ['TriggerBot'] = {
-          Enabled = false,
-          Delay = 0.1,
-              KeyBinds = {
-                  Enabled = true,
-                  Notifications = true,
-                  KeyBind = 't',
-          },
-      },
-      ['Memory'] = {
-          Enable = true,
-          Start = 971,
-          End = 984,
-          Speed = 1,
-      },
-      ['Animation'] = { -- keybind = use animation
-          Lay = false,
-          LayKey = Enum.KeyCode.T,
-          Greet = true,
-          GreetKey = Enum.KeyCode.G,
-          Speed = false,
-          SpeedKey = Enum.KeyCode.N,
-          Sturdy = false,
-          SturdyKey = Enum.KeyCode.H,
-          Griddy = false,
-          GriddyKey = Enum.KeyCode.G,
-      },
-      ['Chat'] = {
-          Enabled = true, --  example !fov 120
-          SilentAim_Fov_Size = '!fov',
-          SilentAim_Prediction = '!Prediction',
-          CamLock_fov_Size = '/fov',
-          CamLock_Smoothness = '/Smoothness',
-          CamLock_PreDiction = '/ped',
-      },
-  },
-}
+    ['StartUP'] = {
+        Key = 'LuarmorKey', -- replace with luarmor key
+        UWP_Optimize = true,
+        UnlockFPS = true,
+        Intro = true
+    },
+    ['Silent'] = {
+        Normal = {
+            Enabled = true,
+            HitChance = 300,
+        },
+        KeyBind = {
+            Enabled = true,
+            KeyBind = 'P',
+            Notification = false,
+        },
+        HitPart = {
+            NearestPoint = true,
+            HitPart = 'HumanoidRootPart',
+        },
+        Prediction = {
+            Enabled = true,
+            AutoMated = false, -- auto prediction
+            Prediction = 0.135,
+        },
+    },
+    ['CamLock'] = {
+        Normal = {
+            Enabled = true,
+            ThirdPerson = true,
+            FirstPerson = true,
+        },
+        KeyBind = {
+            Hold = false,
+            Mode = 'KeyBind', -- or "Mouse"
+            KeyBind = 'q',
+            MouseBind = Enum.UserInputType.MouseButton2,
+        },
+        Prediction = {
+            Enabled = true,
+            Prediction = 0.115,
+        },
+        Style = {
+            First = 'Elastic',
+            Second = 'Sine'
+        },
+        Smoothness = {
+            Enabled = true,
+            Smoothness = 0.013,
+            AirShot = 0.012,
+        },
+        Shake = {
+            Enabled = false,
+            DirectionX = 8,
+            DirectionY = 6,
+            DirectionZ = 7,
+        },
+        HitPart = {
+            NearestPoint = true,
+            AirShot = true,
+            Part = 'HumanoidRootPart',
+            AirPart = 'HumanoidRootPart',
+        },
+        AutoUnLock = {
+            Reloading = true,
+            Typing = true,
+        },
+    },
+    ['Fov'] = {
+        CamLock = {
+            Show = false,
+            Use_Radius = false,
+            Radius = 160,
+            Model = 'Circle'
+        },
+        SilentAim = {
+            Show = false,
+            Use_Radius = true,
+            Radius = 10,
+            Model = 'Circle'
+        },
+    },
+    ['Adjustment'] = {
+      ['Checks'] = {
+            Resolver = true,
+            Anti_Aim_Viewer = true,
+            Wall_Check = true,
+            Disable_Ground_Shots = true,
+            Crew_Check = false,
+            Knocked_Check = true,
+            AntiCurve = true,
+            NoGroundShots = true,
+        },
+        ['Gun_Fov'] = {
+            Enabled = false,
+            DoubleBarrel = 22.5,
+            Revolver = 27.5,
+            Shotgun = 35,
+            TacticalShotgun = 35,
+            Smg = 25,
+            Silencer = 32.5
+        },
+        ['Anti_Lock'] = {
+            Enabled = false,
+            KeyBind = Enum.KeyCode.V
+        },
+        ['Macro'] = {
+            Enabled = true,
+            Hold_Key = true,
+            KeyBind = Enum.KeyCode.X,
+            Mode = '1' -- 1 = ioio 2 = scroll
+        },
+        ['FrameSkip'] = {
+            Enabled = false,
+            Notification = false,
+            Use_KeyBind = true,
+            ToggleKey = 'j',
+        },
+        ['Auto360'] = {
+            Enabled = false,
+            SpinKeybind = 'K',
+            SpinSpeed = 1,
+        },
+        ['TriggerBot'] = {
+            Enabled = false,
+            Delay = 0.1,
+                KeyBinds = {
+                    Enabled = true,
+                    Notifications = true,
+                    KeyBind = 't',
+            },
+        },
+        ['Memory'] = {
+            Enable = true,
+            Start = 1471,
+            End = 1984,
+            Speed = 1,
+        },
+        ['Animation'] = { -- keybind = use animation
+            Lay = false,
+            LayKey = Enum.KeyCode.T,
+            Greet = true,
+            GreetKey = Enum.KeyCode.G,
+            Speed = false,
+            SpeedKey = Enum.KeyCode.N,
+            Sturdy = false,
+            SturdyKey = Enum.KeyCode.H,
+            Griddy = false,
+            GriddyKey = Enum.KeyCode.G,
+        },
+        ['Chat'] = {
+            Enabled = true, --  example !fov 120
+            SilentAim_Fov_Size = '!fov',
+            SilentAim_Prediction = '!Prediction',
+            CamLock_fov_Size = '/fov',
+            CamLock_Smoothness = '/Smoothness',
+            CamLock_PreDiction = '/ped',
+        },
+    },
+  }
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/xlanddd/looten/main/looten", true))()
