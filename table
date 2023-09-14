@@ -198,7 +198,7 @@ getgenv().Looten = {
             maxtextlength = 2^16,
             hpvisibilitycap = 100,
             checks = {
-                false, -- alive check ( not down check just alive check ? )
+                false, -- alive check
                 false, -- distance check 
             },
             maxdistance = 2^16,
