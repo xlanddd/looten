@@ -12,8 +12,8 @@ getgenv().Looten = {
         },
         KeyBind = {
             Enabled = true,
-            KeyBind = 'P',
-            Notification = false,
+            KeyBind = 't',
+            Notification = true,
         },
         HitPart = {
             NearestPoint = true,
@@ -22,7 +22,7 @@ getgenv().Looten = {
         Prediction = {
             Enabled = true,
             AutoMated = false, -- auto prediction
-            Prediction = 0.135,
+            Prediction = 0.125,
         },
     },
     ['CamLock'] = {
@@ -75,10 +75,11 @@ getgenv().Looten = {
             Model = 'Circle'
         },
         SilentAim = {
-            Show = false,
+            Show = true,
             Use_Radius = true,
-            Radius = 10,
-            Model = 'Circle'
+            Radius = 20,
+            Model = 'Circle',
+            StickFov = false,
         },
     },
     ['Adjustment'] = {
@@ -103,7 +104,7 @@ getgenv().Looten = {
         },
         ['Anti_Lock'] = {
             Enabled = false,
-            KeyBind = Enum.KeyCode.V
+            KeyBind = Enum.KeyCode.P
         },
         ['Macro'] = {
             Enabled = true,
@@ -119,7 +120,7 @@ getgenv().Looten = {
         },
         ['Auto360'] = {
             Enabled = false,
-            SpinKeybind = 'C',
+            SpinKeybind = 'Q',
             SpinSpeed = 1,
         },
         ['TriggerBot'] = {
@@ -127,7 +128,7 @@ getgenv().Looten = {
             Delay = 0.1,
                 KeyBinds = {
                     Enabled = true,
-                    Notifications = false,
+                    Notifications = true,
                     KeyBind = 't',
             },
         },
@@ -136,6 +137,20 @@ getgenv().Looten = {
             Start = 971,
             End = 984,
             Speed = 1,
+        },
+        ['Sorting'] = {
+            ['Enabled'] = true,
+            ['Key Bind'] = Enum.KeyCode.X,
+            ['Tool 1'] = "[Double-Barrel SG]",
+            ['Tool 2'] = "[Revolver]",
+            ['Tool 3'] = "[Cookie]",
+            ['Tool 4'] = "[Chicken]",
+            ['Tool 5'] = "[Chicken]",
+            ['Tool 6'] = "[Pizza]",
+            ['Tool 7'] = "[Pizza]",
+            ['Tool 8'] = "",
+            ['Tool 9'] = "",
+            ['Tool l0'] = "[Katana]",
         },
         ['Animation'] = { -- keybind = use animation
             Lay = false,
@@ -156,6 +171,37 @@ getgenv().Looten = {
             CamLock_fov_Size = '/fov',
             CamLock_Smoothness = '/Smoothness',
             CamLock_PreDiction = '/ped',
+        },
+        ['ESP'] = {
+            enabled = true,
+            KeyBind = true,
+            KeyBindNotification = false,
+            Key = Enum.KeyCode.N,
+            box = true,
+            boxcolor1 = Color3.fromRGB(255,255,255),
+            name = false,
+            displayname = false,
+            headdot = false,
+            health = true,
+            healthcolor = Color3.fromRGB(255,255,255),
+            healthtransparency = 1,
+            healthbar = true,
+            healthbarcolor1 = Color3.fromRGB(0,255,0),
+            healthbarcolor2 = Color3.fromRGB(255,0,0),
+            distance = true,
+            outoffovarrows = false,
+            arrowsoffset = 10,
+            arrowscolor = Color3.fromRGB(255,255,255),
+            arrowsfilled = false,
+            arrowsthickness = 2.5,
+            textcase = 1,
+            maxtextlength = 2^16,
+            hpvisibilitycap = 100,
+            checks = {
+                false, -- alive check ( not down check just alive check ? )
+                false, -- distance check 
+            },
+            maxdistance = 2^16,
         },
     },
   }
