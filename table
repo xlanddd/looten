@@ -128,7 +128,7 @@ getgenv().Looten = {
             Delay = 0.1,
                 KeyBinds = {
                     Enabled = true,
-                    Notifications = true,
+                    Notifications = false,
                     KeyBind = 't',
             },
         },
