@@ -140,7 +140,7 @@ getgenv().Looten = {
         },
         ['Sorting'] = {
             ['Enabled'] = true,
-            ['Key Bind'] = Enum.KeyCode.X,
+            ['Key Bind'] = Enum.KeyCode.Z,
             ['Tool 1'] = "[Double-Barrel SG]",
             ['Tool 2'] = "[Revolver]",
             ['Tool 3'] = "[Cookie]",
