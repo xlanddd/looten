@@ -63,14 +63,14 @@ getgenv().Looten = {
             AirPart = 'HumanoidRootPart',
         },
         AutoUnLock = {
-            Reloading = true,
-            Typing = true,
+            Reloading = false,
+            Typing = false,
         },
     },
     ['Fov'] = {
         CamLock = {
             Show = false,
-            Use_Radius = false,
+            Use_Radius = true,
             Radius = 160,
             Model = 'Circle'
         },
@@ -134,12 +134,12 @@ getgenv().Looten = {
         },
         ['Memory'] = {
             Enable = true,
-            Start = 971,
-            End = 984,
+            Start = 1471,
+            End = 1684,
             Speed = 1,
         },
         ['Sorting'] = {
-            ['Enabled'] = true,
+            ['Enabled'] = false,
             ['Key Bind'] = Enum.KeyCode.Z,
             ['Tool 1'] = "[Double-Barrel SG]",
             ['Tool 2'] = "[Revolver]",
@@ -173,7 +173,7 @@ getgenv().Looten = {
             CamLock_PreDiction = '/ped',
         },
         ['ESP'] = {
-            enabled = true,
+            Enabled = false,
             KeyBind = true,
             KeyBindNotification = false,
             Key = Enum.KeyCode.N,
@@ -195,13 +195,13 @@ getgenv().Looten = {
             arrowsfilled = false,
             arrowsthickness = 2.5,
             textcase = 1,
-            maxtextlength = 2^16,
+            maxtextlength = 1^5,
             hpvisibilitycap = 100,
             checks = {
                 false, -- alive check
                 false, -- distance check 
             },
-            maxdistance = 2^16,
+            maxdistance = 2^14, -- (make it max 2^14)
         },
     },
   }
