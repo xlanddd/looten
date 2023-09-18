@@ -70,14 +70,14 @@ getgenv().Looten = {
     ['Fov'] = {
         CamLock = {
             Show = false,
-            Use_Radius = true,
+            Use_Radius = false,
             Radius = 160,
             Model = 'Circle'
         },
         SilentAim = {
-            Show = true,
+            Show = false,
             Use_Radius = true,
-            Radius = 20,
+            Radius = 10,
             Model = 'Circle',
             StickFov = false,
         },
@@ -102,6 +102,30 @@ getgenv().Looten = {
             Smg = 25,
             Silencer = 32.5
         },
+        ['RangeManagement'] = {
+            Enabled = false,
+            Type = "Both", 
+        Close = {
+            CloseDetection = 5,
+            CloseFOV = 60,
+            ClosePrediction = 0.121
+        },
+        Mid = {
+            MidDetection = 15,
+            MidFOV = 45,
+            MidPrediction = 0.127
+        },
+        Far = {
+            FarDetection = 25,
+            FarFOV = 35,
+            FarPrediction = 0.131
+        },
+        ReallyFar = {
+            ReallyFarDetection = math.huge,
+            ReallyFarFOV = 20,
+            ReallyFarPrediction = 0.134
+        }
+    },
         ['Anti_Lock'] = {
             Enabled = false,
             KeyBind = Enum.KeyCode.P
@@ -128,19 +152,19 @@ getgenv().Looten = {
             Delay = 0.1,
                 KeyBinds = {
                     Enabled = true,
-                    Notifications = false,
+                    Notifications = true,
                     KeyBind = 't',
             },
         },
         ['Memory'] = {
             Enable = true,
-            Start = 1471,
-            End = 1684,
+            Start = 971,
+            End = 984,
             Speed = 1,
         },
         ['Sorting'] = {
             ['Enabled'] = false,
-            ['Key Bind'] = Enum.KeyCode.Z,
+            ['Key Bind'] = Enum.KeyCode.X,
             ['Tool 1'] = "[Double-Barrel SG]",
             ['Tool 2'] = "[Revolver]",
             ['Tool 3'] = "[Cookie]",
@@ -175,7 +199,7 @@ getgenv().Looten = {
         ['ESP'] = {
             Enabled = false,
             KeyBind = true,
-            KeyBindNotification = false,
+            KeyBindNotification = true,
             Key = Enum.KeyCode.N,
             box = true,
             boxcolor1 = Color3.fromRGB(255,255,255),
@@ -195,13 +219,13 @@ getgenv().Looten = {
             arrowsfilled = false,
             arrowsthickness = 2.5,
             textcase = 1,
-            maxtextlength = 1^5,
+            maxtextlength = 2^16,
             hpvisibilitycap = 100,
             checks = {
                 false, -- alive check
                 false, -- distance check 
             },
-            maxdistance = 2^14, -- (make it max 2^14)
+            maxdistance = 2^14,
         },
     },
   }
