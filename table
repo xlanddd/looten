@@ -106,24 +106,24 @@ getgenv().Looten = {
             Enabled = false,
             Type = "Both", 
         Close = {
-            CloseDetection = 5,
-            CloseFOV = 60,
-            ClosePrediction = 0.121
+            CloseDetection = 10,
+            CloseFOV = 30,
+            ClosePrediction = 0.125
         },
         Mid = {
             MidDetection = 15,
-            MidFOV = 45,
-            MidPrediction = 0.127
+            MidFOV = 20,
+            MidPrediction = 0.125
         },
         Far = {
-            FarDetection = 25,
-            FarFOV = 35,
-            FarPrediction = 0.131
+            FarDetection = 20,
+            FarFOV = 12,
+            FarPrediction = 0.125
         },
         ReallyFar = {
             ReallyFarDetection = math.huge,
-            ReallyFarFOV = 20,
-            ReallyFarPrediction = 0.134
+            ReallyFarFOV = 3,
+            ReallyFarPrediction = 0.125
         }
     },
         ['Anti_Lock'] = {
