@@ -102,30 +102,6 @@ getgenv().Looten = {
             Smg = 25,
             Silencer = 32.5
         },
-        ['RangeManagement'] = {
-            Enabled = false,
-            Type = "Both", 
-        Close = {
-            CloseDetection = 10,
-            CloseFOV = 30,
-            ClosePrediction = 0.125
-        },
-        Mid = {
-            MidDetection = 15,
-            MidFOV = 20,
-            MidPrediction = 0.125
-        },
-        Far = {
-            FarDetection = 20,
-            FarFOV = 12,
-            FarPrediction = 0.125
-        },
-        ReallyFar = {
-            ReallyFarDetection = math.huge,
-            ReallyFarFOV = 3,
-            ReallyFarPrediction = 0.125
-        }
-    },
         ['Anti_Lock'] = {
             Enabled = false,
             KeyBind = Enum.KeyCode.P
