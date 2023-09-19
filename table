@@ -47,8 +47,8 @@ getgenv().Looten = {
         },
         Smoothness = {
             Enabled = true,
-            Smoothness = 0.038,
-            AirShot = 0.037,
+            Smoothness = 0.032,
+            AirShot = 0.034,
         },
         Shake = {
             Enabled = false,
@@ -70,14 +70,14 @@ getgenv().Looten = {
     ['Fov'] = {
         CamLock = {
             Show = false,
-            Use_Radius = false,
+            Use_Radius = true,
             Radius = 160,
             Model = 'Circle'
         },
         SilentAim = {
             Show = false,
             Use_Radius = true,
-            Radius = 10,
+            Radius = 5,
             Model = 'Circle',
             StickFov = false,
         },
@@ -100,7 +100,10 @@ getgenv().Looten = {
             Shotgun = 35,
             TacticalShotgun = 35,
             Smg = 25,
-            Silencer = 32.5
+            Silencer = 32.5,
+            P90 = 40.2,
+            Ak47 = 50,
+            DrumGun = 60,
         },
         ['Anti_Lock'] = {
             Enabled = false,
@@ -134,8 +137,8 @@ getgenv().Looten = {
         },
         ['Memory'] = {
             Enable = true,
-            Start = 971,
-            End = 984,
+            Start = 1271,
+            End = 1684,
             Speed = 1,
         },
         ['Sorting'] = {
