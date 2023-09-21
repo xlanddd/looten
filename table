@@ -5,6 +5,10 @@ getgenv().Looten = {
         UnlockFPS = true,
         Intro = true
     },
+    ['Panic'] = {
+        Enabled = false,
+        Key = 'L',
+    },
     ['Silent'] = {
         Normal = {
             Enabled = true,
@@ -69,13 +73,13 @@ getgenv().Looten = {
     },
     ['Fov'] = {
         CamLock = {
-            Show = false,
+            Show = true,
             Use_Radius = true,
-            Radius = 160,
+            Radius = 100,
             Model = 'Circle'
         },
         SilentAim = {
-            Show = false,
+            Show = true,
             Use_Radius = true,
             Radius = 5,
             Model = 'Circle',
@@ -104,6 +108,11 @@ getgenv().Looten = {
             P90 = 40.2,
             Ak47 = 50,
             DrumGun = 60,
+        },
+        ['FakeSpike'] = {
+            Enabled = false,
+            FakeSpikeKeybind = 'B',
+            SpikeDuration = 1,            
         },
         ['Anti_Lock'] = {
             Enabled = false,
