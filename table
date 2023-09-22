@@ -116,7 +116,7 @@ getgenv().Looten = {
         },
         ['Anti_Lock'] = {
             Enabled = false,
-            KeyBind = Enum.KeyCode.P
+            KeyBind = 'P',
         },
         ['Macro'] = {
             Enabled = true,
