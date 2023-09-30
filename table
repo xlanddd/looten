@@ -1,7 +1,7 @@
 getgenv().Looten = {
     ['StartUP'] = {
         Key = 'LuarmorKey', -- replace with luarmor key
-        UWP_Optimize = false,
+        UWP_Optimize = true,
         UnlockFPS = true,
         Intro = true
     },
