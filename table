@@ -137,7 +137,7 @@ getgenv().Looten = {
         },
         ['Auto360'] = {
             Enabled = true,
-            SpinKeybind = 'Q',
+            SpinKeybind = 'B',
             SpinSpeed = 1,
         },
         ['TriggerBot'] = {
