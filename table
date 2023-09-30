@@ -1,7 +1,7 @@
 getgenv().Looten = {
     ['StartUP'] = {
         Key = 'LuarmorKey', -- replace with luarmor key
-        UWP_Optimize = true,
+        UWP_Optimize = false,
         UnlockFPS = true,
         Intro = true
     },
@@ -109,6 +109,11 @@ getgenv().Looten = {
             Ak47 = 50,
             DrumGun = 60,
         },
+        ['Mod'] = {
+            Enabled = false,
+            Message = 'lol...',
+            Kick_if_Mod_Joined = true,
+        },
         ['FakeSpike'] = {
             Enabled = false,
             FakeSpikeKeybind = 'B',
@@ -116,7 +121,7 @@ getgenv().Looten = {
         },
         ['Anti_Lock'] = {
             Enabled = false,
-            KeyBind = 'P',
+            KeyBind = Enum.KeyCode.P
         },
         ['Macro'] = {
             Enabled = true,
@@ -131,7 +136,7 @@ getgenv().Looten = {
             ToggleKey = 'j',
         },
         ['Auto360'] = {
-            Enabled = false,
+            Enabled = true,
             SpinKeybind = 'Q',
             SpinSpeed = 1,
         },
@@ -152,7 +157,7 @@ getgenv().Looten = {
         },
         ['Sorting'] = {
             ['Enabled'] = false,
-            ['Key Bind'] = Enum.KeyCode.X,
+            ['Key Bind'] = 'X',
             ['Tool 1'] = "[Double-Barrel SG]",
             ['Tool 2'] = "[Revolver]",
             ['Tool 3'] = "[Cookie]",
@@ -188,7 +193,7 @@ getgenv().Looten = {
             Enabled = false,
             KeyBind = true,
             KeyBindNotification = true,
-            Key = 'N',
+            Key = Enum.KeyCode.N,
             box = true,
             boxcolor1 = Color3.fromRGB(255,255,255),
             name = false,
