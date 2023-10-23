@@ -4,6 +4,7 @@ getgenv().Looten = {
         UWP_Optimize = true,
         UnlockFPS = true,
         Intro = true
+        FakeRecord = true,
     },
     ['Panic'] = {
         Enabled = false,
