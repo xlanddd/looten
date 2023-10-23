@@ -3,7 +3,7 @@ getgenv().Looten = {
         Key = 'LuarmorKey', -- replace with luarmor key
         UWP_Optimize = true,
         UnlockFPS = true,
-        Intro = true
+        Intro = true,
         FakeRecord = true,
     },
     ['Panic'] = {
